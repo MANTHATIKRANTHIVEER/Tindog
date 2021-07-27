@@ -1,0 +1,170 @@
+.container-fluid {
+  padding: 3% 8%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* image button */
+.image-button {
+  margin: 5% 5% 0 0;
+}
+
+.fab {
+  padding: 5px;
+}
+
+/* title */
+#title {
+  height: 46rem;
+  background-color: #ff4c68;
+}
+
+/* image-doggy */
+.doggy {
+  width: 60%;
+  transform: rotate(25deg);
+  position: relative;
+}
+
+/* SECTION FEATURES */
+/* (fas) heart icons */
+.fas {
+  color: #ef8172;
+  padding-bottom: 0.25em;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+h2 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+
+/* for p */
+#features {
+  position: relative;
+  z-index: 1;
+  color: #8f8f8f;
+  padding: 5rem 2rem;
+  background-color: #fff;
+}
+
+/* for p */
+.widthing {
+  padding: 0 3.5em;
+}
+
+/* testimonials */
+#testimonials {
+  background-color: #ef8172;
+}
+
+/* testimonials-image */
+.testimonials-image {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+#pricing {
+  padding: 5rem;
+}
+
+.pricing-coloumn {
+  padding: 3% 2%;
+}
+
+/* call to action */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 6% 35%;
+}
+
+.buttons {
+  margin: 1% 4%;
+}
+
+#footer {
+  background-color: #fff;
+  margin-top: 5%;
+}
+
+.icons {
+  padding: 10px;
+}
+
+@media (max-width:990px) {
+  #title {
+    text-align: center;
+    height: 62rem;
+  }
+
+  .image-button {
+    margin: 5% 1.75%;
+  }
+
+  .doggy {
+    position: static;
+    transform: rotate(0);
+  }
+
+  /* bottom buttons */
+  .buttons {
+    margin: 4%;
+  }
+
+  #cta {
+    padding: 6% 10%;
+  }
+
+  /* Testimonials */
+  .Size {
+    font-size: 2rem;
+  }
+}
